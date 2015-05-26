@@ -190,11 +190,11 @@ depending on our progress and students' preferences
 |Th 4/30| 3:30-5:00 | Visualizing the data (matplotlib [\#1][ls-08b], [\#2][ls-08c]) | [MPL](http://matplotlib.org), [AMPL][anatomy-of-matplotlib]	| [HW4](https://github.com/dartmouth-pbs/psyc161-hw4)
 |T  5/05| 2:00-5:00 | Hands-on: [Camera Man][ls-09b], [Arteries][ls-09c], [Convolution][ls-09d] | PSL([1.5](http://scipy-lectures.github.io/intro/scipy.html))	| -
 |Th 5/07| 3:30-5:00 | Hands-on: [Haxby 2001][ls-10b] | -	| -
-|Th 5/14| 3:30-5:00 | TBA | TBA	| PRJ
-|Th 5/21| 3:30-5:00 | TBA | TBA	| PRJ
-|T  5/26| 3:30-5:00 | TBA | TBA	| PRJ
-|Th 5/28| 3:30-5:00 | TBA | TBA	| PRJ
-|T  6/02| 3:30-5:00 | TBA | TBA	| PRJ
+|Th 5/14| 3:30-5:00 | Finishing up [Haxby 2001][ls-10b] | -	| PRJ
+|Th 5/21| 3:30-5:00 | [Debugging][ls-12a], Hands-on: [Slice-timing][ls-11b] | -	| -
+|T  5/26| 3:30-5:00 | PsychoPy [Stimuli][ls-13b] | [PsychoPy Coder Manual](http://www.psychopy.org/coder/coder.html)	| -
+|Th 5/28| 3:30-5:00 | PsychoPy Events/Responses | TBA	| PRJ/HW5
+|T  6/02| 3:30-5:00 | TBA | TBA	| -
 
 
 [git-bootcamp]: http://nbviewer.ipython.org/github/dartmouth-pbs/reprosw/blob/master/Version%20Control.ipynb "Git bootcamp"
@@ -241,7 +241,10 @@ depending on our progress and students' preferences
 
 [ls-10b]: http://nbviewer.ipython.org/github/dartmouth-pbs/psyc161/blob/master/classes/10b-HandsOn-Haxby2001.ipynb
 
+[ls-11b]: http://nbviewer.ipython.org/github/dartmouth-pbs/psyc161/blob/master/classes/11b-HandsOn-Interpolations.ipynb
+[ls-12a]: http://nbviewer.ipython.org/github/dartmouth-pbs/psyc161/blob/master/classes/12a-Logistics.ipynb
 
+[ls-13b]: http://nbviewer.ipython.org/github/dartmouth-pbs/psyc161/blob/master/classes/13b-PsychoPy-Basics.ipynb
 
 ## Student Evaluation
 
@@ -255,7 +258,12 @@ Students will be evaluated on the basis of:
 
 ## Final project
 
-Students will choose a project of their liking
+Final project will be optional -- students will be welcome to choose
+either to do some final project or do two final homeworks, or both
+(project + homeworks) for "extra credit".
+
+For the final project, students have two possibilities: self-proposed
+or a suggested project.  For a self-proposed project:
 
 - It must be a new development (i.e. not something you did before this
   course), although you can choose to improve upon your prior code
@@ -263,12 +271,11 @@ Students will choose a project of their liking
 - Ideally should be something **you** or someone would end up re-using
   later on
 
-- Contributions to existing scientific projects will be strongly
+- Contribution to an existing scientific projects is strongly
   encouraged (benefit from established QA, feedback, distribution
   channels, etc)
 
-- Possible projects will be suggested and discussed in the class on
-  4-5th week and possible domains would be
+- Possible domains can be
 
     - Data structures/algorithms implementation
     - Stimuli/experiment
@@ -277,6 +284,17 @@ Students will choose a project of their liking
     existing scientific FOSS project
 
 - Team work is encouraged (but contribution ratio will be assessed)
+
+Suggested projects will be given in the class.  For any of those types
+of projects code must be documented (docstrings, code comments),
+follow style guidelines (flake8 run in .travis.yml), carry unit- and
+possibly doc-tests, and submitted via GitHub making Travis-CI happy.
+You are most welcome to use materials from previous homeworks, and
+even review and grab ideas (not cut/pasted code) from code of others.
+You can either clone blank
+[psyc161-prj](https://github.com/dartmouth-pbs/psyc161-prj) against
+which you would submit your solution in private, or create a new
+public git repository on github.
 
 ## Code of conduct
 
