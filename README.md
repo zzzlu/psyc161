@@ -166,13 +166,9 @@ depending on our progress and students' preferences
 - **Weeks 1-3**: Get to know the tools (environments, VCS, QA) and Python
   language fundamentals (from variables to modules and classes)
 
-- **Weeks 4-5**: Fundamentals of the scientific Python core (NumPy, SciPy, matplotlib)
+- **Weeks 4-7**: Fundamentals of the scientific Python core (NumPy, SciPy, matplotlib) with applications to neuroimaging
 
-- **Week 6**: Overview of the extended scientific core (pandas, statsmodels, seaborn, PyMVPA)
-
-- **Week 7**: Stimuli delivery with Python (PsychoPy)
-
-- **Weeks 8-9**: Tour into R and Matlab and their offerings
+- **Week 8-9**: Stimuli delivery with Python (PsychoPy)
 
 
 ## Schedule
@@ -193,8 +189,8 @@ depending on our progress and students' preferences
 |Th 5/14| 3:30-5:00 | Finishing up [Haxby 2001][ls-10b] | -	| PRJ
 |Th 5/21| 3:30-5:00 | [Debugging][ls-12a], Hands-on: [Slice-timing][ls-11b] | -	| -
 |T  5/26| 3:30-5:00 | PsychoPy [Stimuli][ls-13b] | [PsychoPy Coder Manual](http://www.psychopy.org/coder/coder.html)	| -
-|Th 5/28| 3:30-5:00 | PsychoPy Events/Responses | TBA	| PRJ/HW5
-|T  6/02| 3:30-5:00 | TBA | TBA	| -
+|Th 5/28| 3:30-5:00 | PsychoPy [Timing][ls-14b], [Events/Responses][ls-14c], [GUI][ls-14d] | [PsychoPy Coder Manual](http://www.psychopy.org/coder/coder.html)	| PRJ
+|T  6/02| 3:30-5:00 | PsychoPy Trials, Gluing-all-together | [PsychoPy Coder Manual](http://www.psychopy.org/coder/coder.html) | -
 
 
 [git-bootcamp]: http://nbviewer.ipython.org/github/dartmouth-pbs/reprosw/blob/master/Version%20Control.ipynb "Git bootcamp"
@@ -246,6 +242,10 @@ depending on our progress and students' preferences
 
 [ls-13b]: http://nbviewer.ipython.org/github/dartmouth-pbs/psyc161/blob/master/classes/13b-PsychoPy-Basics.ipynb
 
+[ls-14b]: http://nbviewer.ipython.org/github/dartmouth-pbs/psyc161/blob/master/classes/14b-PsychoPy-TimingRehearsed.ipynb
+[ls-14c]: http://nbviewer.ipython.org/github/dartmouth-pbs/psyc161/blob/master/classes/14c-PsychoPy-Events.ipynb
+[ls-14d]: http://nbviewer.ipython.org/github/dartmouth-pbs/psyc161/blob/master/classes/14d-PsychoPy-GUI.ipynb
+
 ## Student Evaluation
 
 Students will be evaluated on the basis of:
@@ -258,9 +258,8 @@ Students will be evaluated on the basis of:
 
 ## Final project
 
-Final project will be optional -- students will be welcome to choose
-either to do some final project or do two final homeworks, or both
-(project + homeworks) for "extra credit".
+Final project is optional.  Students must complete all homeworks, and
+the final project provides "extra credit" benefits.
 
 For the final project, students have two possibilities: self-proposed
 or a suggested project.  For a self-proposed project:
@@ -324,6 +323,7 @@ compatible terms from
   by M.Brett largely copyright Matthew Brett 2015, licensed under the
   Creative Commons attribution 2.0 generic license (CC-by 2.0): see
   http://creativecommons.org/licenses/by/2.0/
-
+- [PsychoPy Course](http://github.com/lindeloev/psychopy-course) by
+  Jonas Lindeløv, licensed under [GPL v.2](https://github.com/lindeloev/psychopy-course/blob/master/LICENSE)
 
 [anatomy-of-matplotlib]: http://github.com/WeatherGod/AnatomyOfMatplotlib
